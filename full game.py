@@ -40,12 +40,12 @@ class Game:
         print ("If You Want To Exit Please Enter 'X' ")
         while True:    
             number = input("Enter A Number: ")
-            '''
+            
             if number == 'x':
                 print ('Closing The Game')
                 print ("Thanks")
                 break
-            '''
+            
             try:
                 number = int (number)
                 if number % 2 == 0:
